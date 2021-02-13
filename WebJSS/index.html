@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Быки и коровы</title>
+		<script>
+			function checkNumber() {
+				var userData = document.getElementById('user_number').value; 
+				
+				var textArea = document.getElementById('result_text'); 
+				textArea.innerText += userData + "\n";				
+			}
+		</script>
+	</head>
+	<body>					
+		
+	
+		<h1>Я загадал четыре цифры, отгадай их :</h1>
+		<p id="result_text"></p>
+		
+		
+		<input type="text" id="user_number">
+		<button onclick="checkNumber()">Copy Text</button>
+		
+	
+	</body>
+
+</html>
